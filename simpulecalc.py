@@ -25,6 +25,3 @@ def calculator(num1, num2, operation):
 
 # Examples of using the calculator
 print(f"10 + 5 = {calculator(10, 5, '+')}")
-print(f"10 - 5 = {calculator(10, 5, '-')}")
-print(f"10 * 5 = {calculator(10, 5, '*')}")
-print(f"10 / 5 = {calculator(10, 5, '/')}")
