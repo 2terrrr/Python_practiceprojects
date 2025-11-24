@@ -77,3 +77,5 @@ print(f"10 + 2 * 5   = {calculator2(10, '+', 2, '*', 5)}")
 # 3. Left to Right (Multiplication then Addition)
 # 10 * 2 = 20, then 20 + 5 = 25
 print(f"10 * 2 + 5   = {calculator2(10, '*', 2, '+', 5)}")
+
+#study how this works then recreate own code
