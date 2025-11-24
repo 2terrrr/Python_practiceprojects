@@ -41,12 +41,14 @@ def calculator3(num1, op1, num2, op2, num3):
 
 # 1. Left to Right (Addition then Subtraction)
 # 20 + 10 = 30, then 30 - 10 = 20
-print(f"20 + 10 - 10 = {calculator2(20, '+', 10, '-', 10)}")
+print(f"20 + 10 - 10 = {calculator3(20, '+', 10, '-', 10)}")
 
 # 2. Order of Operations (Multiplication before Addition)
 # 2 * 5 = 10, then 10 + 10 = 20
-print(f"10 + 2 * 5   = {calculator2(10, '+', 2, '*', 5)}")
+print(f"10 + 2 * 5   = {calculator3(10, '+', 2, '*', 5)}")
 
 # 3. Left to Right (Multiplication then Addition)
 # 10 * 2 = 20, then 20 + 5 = 25
-print(f"10 * 2 + 5   = {calculator2(10, '*', 2, '+', 5)}")
+print(f"10 * 2 + 5   = {calculator3(10, '*', 2, '+', 5)}")
+
+print(f"10 + 20 - 7 = {calculator3(10, '+', 20, '-', 7)}")
