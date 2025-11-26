@@ -46,7 +46,6 @@ print(f"20 + 10 - 10 = {calculator3(20, '+', 10, '-', 10)}")
 print(f"10 + 2 * 5   = {calculator3(10, '+', 2, '*', 5)}")
 
 # 3. Left to Right (Multiplication then Addition)
-# 10 * 2 = 20, then 20 + 5 = 25
 print(f"10 * 2 + 5   = {calculator3(10, '*', 2, '+', 5)}")
 
 print(f"10 + 20 - 7 = {calculator3(10, '+', 20, '-', 7)}")
