@@ -50,4 +50,6 @@ print(f"10 * 2 + 5   = {calculator3(10, '*', 2, '+', 5)}")
 
 print(f"10 + 20 - 7 = {calculator3(10, '+', 20, '-', 7)}")
 
+print(f"30 - 27 * 3 = {calculator3(30, '-', 27, '*', 3)}")
+
 # works now
