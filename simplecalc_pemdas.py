@@ -43,7 +43,6 @@ def calculator3(num1, op1, num2, op2, num3):
 print(f"20 + 10 - 10 = {calculator3(20, '+', 10, '-', 10)}")
 
 # 2. Order of Operations (Multiplication before Addition)
-# 2 * 5 = 10, then 10 + 10 = 20
 print(f"10 + 2 * 5   = {calculator3(10, '+', 2, '*', 5)}")
 
 # 3. Left to Right (Multiplication then Addition)
