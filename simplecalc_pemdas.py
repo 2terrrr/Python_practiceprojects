@@ -37,7 +37,7 @@ def calculator3(num1, op1, num2, op2, num3):
         final_result = simple_op(intermediate_result, num3, op2)
         return final_result
 
-# --- Tests ---
+# tests
 
 # 1. Left to Right (Addition then Subtraction)
 print(f"20 + 10 - 10 = {calculator3(20, '+', 10, '-', 10)}")
