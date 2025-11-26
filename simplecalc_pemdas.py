@@ -49,3 +49,5 @@ print(f"10 + 2 * 5   = {calculator3(10, '+', 2, '*', 5)}")
 print(f"10 * 2 + 5   = {calculator3(10, '*', 2, '+', 5)}")
 
 print(f"10 + 20 - 7 = {calculator3(10, '+', 20, '-', 7)}")
+
+# works now
