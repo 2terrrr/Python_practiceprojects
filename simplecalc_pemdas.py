@@ -40,7 +40,6 @@ def calculator3(num1, op1, num2, op2, num3):
 # --- Tests ---
 
 # 1. Left to Right (Addition then Subtraction)
-# 20 + 10 = 30, then 30 - 10 = 20
 print(f"20 + 10 - 10 = {calculator3(20, '+', 10, '-', 10)}")
 
 # 2. Order of Operations (Multiplication before Addition)
